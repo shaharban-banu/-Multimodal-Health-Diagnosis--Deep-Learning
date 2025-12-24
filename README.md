@@ -21,38 +21,6 @@ This project mirrors that clinical workflow by fusing different data modalities,
 
 ---
 
-## 🗂 Project Structure
-multimodal_health_ai/
-│
-├── streamlit_app.py # Streamlit web application
-│
-├── models/ # Trained models and scalers
-│ ├── ecg_rnn_model.keras
-│ ├── fusion_model.keras
-│ ├── tabular_model.pkl
-│ ├── tabular_scaler.pkl
-│ ├── ecg_scaler.pkl
-│
-├── data/
-│ ├── heart.csv # Tabular heart disease dataset
-│ ├── time_series/
-│ │ ├── mitbih_train.csv
-│ │ ├── mitbih_test.csv
-│ └── fusion/
-│ ├── rnn_preds.npy
-│ ├── rnn_labels.npy
-│ ├── tabular_preds.npy
-│ ├── tabular_labels.npy
-│
-├── notebooks/
-│ ├── 1_tabular_model.ipynb
-│ ├── 2_ecg_rnn_model.ipynb
-│ ├── 3_fusion_model.ipynb
-│
-└── README.md
-
----
-
 ## 📊 Datasets Used
 
 ### 1️⃣ MIT-BIH Arrhythmia Dataset
